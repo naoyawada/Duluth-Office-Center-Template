@@ -1,0 +1,24 @@
+$gray: #626d75;
+$mid-gray: #768289;
+$white: #fff;
+
+section {
+    padding: 3rem;
+    &#directory {
+        background-color: $gray;
+        min-height: 1320px;
+    }
+    &#announcements {
+        background-color: $mid-gray;
+        min-height: 250px;
+    }
+    &#footer {
+        background-color: $white;
+    }
+}
+
+.tenant-entry {
+    border: {
+        bottom: 1px solid $white;
+    }
+}
