@@ -7,16 +7,80 @@
         <link rel="stylesheet" href="stylesheets/app.css" />
         <link rel="stylesheet" href="stylesheets/custom.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
+        <script type='text/javascript'>
+            setTimeout("location.reload();",30000);
+        </script>
+
     </head>
     <body>
 
         <section id="directory">
-            <div class="row">
+            <div class="row building-name">
                 <div class="xlarge-12 columns">
-                    <h1>Duluth Office Center - Central Building</h1>
+                    <h1><img src="images/building-logo.png"> <b>DULUTH OFFICE CENTER</b> - CENTRAL BUILDING</h1>
                 </div>
             </div>
             <div class="row">
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xlarge-6 columns">
+                    <div class="row tenant-entry">
+                        <div class="large-10 columns">
+                            <p>Tenant</p>
+                        </div>
+                        <div class="large-2 columns text-right">
+                            <p>100</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="xlarge-6 columns">
                     <div class="row tenant-entry">
                         <div class="large-10 columns">
@@ -121,15 +185,54 @@
         </section>
 
         <section id="announcements">
-            <h2>Announcements</h2>
+            <div class="row">
+                <div class="xlarge-12 columns">
+                    <h2>ANNOUNCEMENTS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="xlarge-12 columns">
+                    <p>Line 1<br>Line 2</P>
+            </div>
+            </div>
         </section>
 
-        <section id="footer">
-            asd
-        </section>
+    <section id="footer">
+        <div class="row" data-equalizer>
+            <div class="large-4 columns" data-equalizer-watch>
+                <div><img src="images/stream.png"></div>
+            </div>
+            <div class="large-4 columns" data-equalizer-watch>
+                <div>
+                    <h3>
+                        Information
+                    </h3>
+                    <p>
+                        <b>Building Hours</b><br>
+                        M-F 8am-5pm
+                    </p>
+                    <p>
+                        <b>Management Office</b><br>
+                        770-733-1118
+                    </p>
+                    <p>
+                    <b>24 Hour</b><br>
+                    404-962-8607
+                    </p>
+                </div>
+            </div>
+            <div class="large-4 columns" data-equalizer-watch>
+                <div><img src="images/engage-directory.png"></div>
+            </div>
+        </div>
+    </section>
 
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
     </body>
 </html>

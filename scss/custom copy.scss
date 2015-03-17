@@ -51,11 +51,11 @@ section {
     padding: rem-calc(50px);
 
     /* Directory */
-    &#ed-directory {
+    &#directory {
         background-color: $gray;
-        min-height: 1230px;
+        height: 1320px;
 
-        div.row {
+        div.row { 
             div {
                 h1 {
                     color: $orange;
@@ -64,67 +64,53 @@ section {
                         size: 2.25rem;
                         family: $font-family;
                     }
-
+                    
                     img {
                         margin: 0 1.5rem 0 0;
                     }
-
+                    
                     b {
                         font-weight: 500;   
                     }
                 }
-
-            }
-        }
-
-        div.region { 
-            div.block {
-                div.content{
-                    div.row {
-                        div.columns {
-                            div.tenant-entry {
-                                border: {
-                                    bottom: 1px solid $white;
-                                }
-                                div.columns p {
-                                    color: $white;
-                                    font: {
-                                        size: 1.8125rem;;
-                                        family: $font-family;
-                                        weight: 300;
-                                    }
-                                    margin: 0;
-                                    padding: .6375rem 0;
-                                }
-                                div:nth-child(even) p {
-                                    color: $orange;
-                                    font: {
-                                        weight: 600;
-                                    }
-                                }
-                            }
+                div.tenant-entry {
+                    border: {
+                        bottom: 1px solid $white;
+                    }
+                    div p {
+                        color: $white;
+                        font: {
+                            size: 1.8125rem;;
+                            family: $font-family;
+                            weight: 300;
                         }
-                        div.columns:last-of-type {
-                            div.tenant-entry {
-                                border: {
-                                    bottom: 0px solid $white;
-                                }
-                            }
+                        margin: 0;
+                        padding: .6375rem 0;
+                    }
+                    div:nth-child(even) p {
+                        color: $orange;
+                        font: {
+                            weight: 600;
                         }
-
                     }
                 }
-
+            }
+            div:last-of-type {
+                div.tenant-entry {
+                    border: {
+                        bottom: 0px solid $white;
+                    }
+                }
             }
         }
-
+        
         div.building-name {
             margin: 0 0 2rem 0;
         }
     }
-    &#ed-announcements {
+    &#announcements {
         background-color: $mid-gray;
-        min-height: 250px;
+        height: 250px;
 
         div {
             div {
@@ -146,9 +132,9 @@ section {
             }
         }
     }
-    &#ed-footer {
+    &#footer {
         background-color: $white;
-        min-height: 350px;
+        height: 350px;
 
         div {
 
@@ -157,24 +143,16 @@ section {
                     right: 1px solid $gray;
                 }
                 text-align: center;
-                
-                p#dateandtime {
-                    font: {
-                        size: 2rem;
-                        weight: 300;
-                    }
-                    height: 70px;
-                }
 
                 div {
                     margin: 0;
                     padding: 0;
                     @include vertical-align();
-
+                    
                     h3 {
                         font: {
                             size: 2rem;
-                            weight: 600;
+                            font-weight: 600;
                             family: $font-family;
                         }
                         line-height: 135%;

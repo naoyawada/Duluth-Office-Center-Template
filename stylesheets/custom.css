@@ -1,13 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+
 section {
-  padding: 3rem; }
-  section#directory {
+  padding: 3.125em;
+  /* Directory */ }
+  section#ed-directory {
     background-color: #626d75;
-    min-height: 1320px; }
-  section#announcements {
+    min-height: 1230px; }
+    section#ed-directory div.row div h1 {
+      color: #E8C278;
+      font-weight: 300;
+      font-size: 2.25rem;
+      font-family: "Open Sans", sans-serif; }
+      section#ed-directory div.row div h1 img {
+        margin: 0 1.5rem 0 0; }
+      section#ed-directory div.row div h1 b {
+        font-weight: 500; }
+    section#ed-directory div.region div.block div.content div.row div.columns div.tenant-entry {
+      border-bottom: 1px solid #f3f6f6; }
+      section#ed-directory div.region div.block div.content div.row div.columns div.tenant-entry div.columns p {
+        color: #f3f6f6;
+        font-size: 1.8125rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        margin: 0;
+        padding: .6375rem 0; }
+      section#ed-directory div.region div.block div.content div.row div.columns div.tenant-entry div:nth-child(even) p {
+        color: #E8C278;
+        font-weight: 600; }
+    section#ed-directory div.region div.block div.content div.row div.columns:last-of-type div.tenant-entry {
+      border-bottom: 0px solid #f3f6f6; }
+    section#ed-directory div.building-name {
+      margin: 0 0 2rem 0; }
+  section#ed-announcements {
     background-color: #768289;
     min-height: 250px; }
-  section#footer {
-    background-color: #fff; }
-
-.tenant-entry {
-  border-bottom: 1px solid #fff; }
+    section#ed-announcements div div h2 {
+      color: #f3f6f6;
+      font-size: 2.25rem;
+      font-weight: 500;
+      font-family: "Open Sans", sans-serif; }
+    section#ed-announcements div div p {
+      color: #E8C278;
+      font-size: 1.8125rem;
+      font-weight: 500; }
+  section#ed-footer {
+    background-color: #f3f6f6;
+    min-height: 350px; }
+    section#ed-footer div div {
+      border-right: 1px solid #626d75;
+      text-align: center; }
+      section#ed-footer div div p#dateandtime {
+        font-size: 2rem;
+        font-weight: 300;
+        height: 70px; }
+      section#ed-footer div div div {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        section#ed-footer div div div h3 {
+          font-size: 2rem;
+          font-weight: 600;
+          font-family: "Open Sans", sans-serif;
+          line-height: 135%;
+          margin: 0;
+          padding: 0; }
+        section#ed-footer div div div p {
+          font-size: 1.25rem;
+          margin: 0 0 .125rem 0;
+          padding: 0; }
+    section#ed-footer div div:last-of-type {
+      border-right: 0px solid #626d75; }
